@@ -1,0 +1,480 @@
+
+body,h1,h2,h3,h4,h5,h6 {font-family: 'Muli', sans-serif;}
+body, html {
+    height: 100%;
+    color: #fff;
+    line-height: 1.8;
+    background-color: #202020;
+  }
+
+  .header {
+   letter-spacing: 5px;
+    color: white;
+    text-shadow: 1px 1px 1px #ff9800!important; 
+}
+
+
+/* Header Buttons  */
+.button {
+  border: 1px solid #ff9800!important;
+  width: 150px;
+  padding:8px;
+  transition: 0.3s linear;
+  -webkit-transition: 0.3s linear;
+}
+
+.button:hover {
+  background-color: gray!important;
+}
+
+
+/* About Us */
+
+@font-face {
+    font-family: Edward;
+    src: url(fonts/Edward.ttf);
+}
+
+.signature {
+    font-family: 'Tangerine', cursive;
+}
+
+.margin-left {
+  margin-left: 16px;
+}
+
+.logo-margin-left {
+  margin-left: 64px;
+}
+
+.margin-top {
+  margin-top: 32px;
+}
+
+.dreamTeam {
+  text-decoration: none;
+  color: #ff9800!important;
+}
+
+
+
+/* Service Background Images */
+.service-bg1 {
+  background-image: url("images/air-brush.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card-4{box-shadow:0 0px 20px 0px rgba(0,0,0,0.2),0 0px 20px 0px rgba(0,0,0,0.19)}
+
+
+/* Gallery Overlay Effect */
+
+.grayscale-max {
+  transition: .3s;
+  filter:grayscale(100%);
+}
+
+.grayscale-max:hover {
+  filter:grayscale(0);
+}
+
+div#container
+{
+  position:relative;
+  width: 1276px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:left; 
+}
+
+div#container2
+{
+  position:relative;
+  width: 75%;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0, 0.6);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .3s ease-in-out;
+}
+
+.container:hover .overlay {
+  height: 30%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.promo {
+  background-image: url('images/NewsPromo/wedingPackages.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 510px;
+}
+
+.promo_2 {
+  background-image: url('images/NewsPromo/wallpaper.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 510px;
+}
+
+@media(max-width:992px) {
+  .promo_2 {
+    margin-top: 0!important;
+    padding-top: 10px!important;
+    line-height: 1.6em;
+  }
+
+  .hiring {
+    white-space: nowrap!important;
+  }
+
+  .wallpaper {
+    line-height: 1.9em!important;
+  }
+
+  .inquireBtn {
+    width: 120px!important;
+  }
+}
+
+.wallpaper {
+  background-image: url('images/NewsPromo/wallpaper.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+
+.wallpaper2 {
+  background-image: url('images/NewsPromo/wallpaper.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 40px;
+}
+
+/* Navigation Button */
+
+.topnav {
+  overflow: hidden;
+  background-color:rgba(0,0,0,0.1);
+  
+  
+
+}
+
+.topnav a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.3s linear;
+  -webkit-transition: 0.3s linear;
+}
+
+
+.topnav a:hover {
+  color: #ff9800!important;
+  text-decoration: none;
+}
+
+
+.smallscreen:hover {
+  background-color: #202020;
+}
+
+.transparent {
+  background-image: url("images/wallpaper.jpg");
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* News & Promos Effect Photo */
+
+.container-overlay {
+  position: relative;
+}
+
+.shadow-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .4s ease;
+  background-color: rgba(0,0,0, 0.3);
+}
+
+.container-overlay:hover .shadow-overlay {
+  opacity: 1;
+}
+
+@media (max-width:992px) and (min-width:601px) {
+  .img-wedding {
+    height:52%!important;
+    width:100%;
+  }
+}
+
+/*Package Section*/
+
+.card {
+  transition: 0.3s linear;
+  -webkit-transition: 0.3s linear;
+}
+
+.card:hover {
+  box-shadow: 1px 1px 20px 5px rgba(0,0,0, 0.3);
+}
+
+
+
+
+
+/* Where Scale Images */
+
+.container_scale {
+  position: relative;
+  overflow: hidden;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  transition: 0.6s ease-in-out;
+  -webkit-transition: 0.6s ease-in-out;
+}
+
+.image2 {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  transition: 0.6s ease-in-out;
+  -webkit-transition: 0.6s ease-in-out;
+}
+
+.container_scale:hover .image {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+  }
+
+.container_scale:hover .image2 {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+  }
+
+  .scale {
+  border: 2px solid white;
+}
+
+/* Footer  */
+  .hover-color-effect{transition: background 0.3s linear 0s;-webkit-transition: background 0.3s linear 0s;-moz-transition: background 0.3s linear 0s;}
+
+  .hover-color-effect {
+  background-image: url('images/NewsPromo/wallpaper.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200px;
+}
+
+#toTop {
+  display: none;
+  text-decoration: none;
+  position: fixed;
+  bottom: 20px;
+  right: 2%;
+  overflow: hidden;
+  z-index: 999; 
+  border: none;
+  text-indent: 100%;
+
+}
+
+
+
+input[type=text], textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+
+  border: 1px solid #DDDDDD;
+}
+ 
+input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 3);
+  border: 1px solid rgba(81, 203, 238, 3);
+}
+
+
+/* Social Media Logo */
+/*
+.circle {
+  margin-top:5px;
+  padding: 5px;
+  border-radius:50%;
+  font-size: 10px;
+  width: 34px;
+  text-align: center;
+  color: black;
+  background: #fff;
+}
+
+.circle:hover {
+  background: #3B5998;
+  color: white;
+}
+*/
+
+.circle-marker {
+  background: green;
+  color: white;
+  margin-top:5px;
+  padding: 5px;
+  border-radius:50%;
+  font-size: 10px;
+  width: 34px;
+  text-align: center;
+}
+
+.circle-marker:hover {
+  color: black;
+  background: #fff;
+}
+
+.circle-mobile {
+  background: orange;
+  color: white;
+  margin-top:5px;
+  padding: 5px;
+  border-radius:50%;
+  font-size: 10px;
+  width: 34px;
+  text-align: center;
+}
+
+.circle-mobile:hover {
+  color: black;
+  background: #fff;
+}
+
+.circle-google {
+  background: red;
+  color: white;
+  margin-top:5px;
+  padding: 5px;
+  border-radius:50%;
+  font-size: 10px;
+  width: 34px;
+  text-align: center;
+}
+
+.circle-google:hover {
+  color: black;
+  background: #fff;
+}
+
+.circle-face {
+  background: #3B5998;
+  color: white;
+  margin-top:5px;
+  padding: 5px;
+  border-radius:50%;
+  font-size: 10px;
+  width: 34px;
+  text-align: center;
+}
+
+.circle-face:hover {
+  color: black;
+  background: #fff;
+}
+
+.circle-insta {
+  margin-top:5px;
+  padding: 5px;
+  border-radius:50%;
+  font-size: 10px;
+  width: 34px;
+  text-align: center;
+  background: #795548!important;
+  color: white;
+}
+
+.circle-insta:hover {
+  color: black;
+  background-color: #fff!important;
+}
+
+.circle-you {
+  margin-top:5px;
+  padding: 5px;
+  border-radius:50%;
+  font-size: 10px;
+  width: 34px;
+  text-align: center;
+  background: #bb0000;
+  color: white;
+}
+
+.circle-you:hover {
+  color: black;
+  background: #fff;
+}
+
+.codeconvenant {
+  text-decoration: none;
+  transition: .3s ease;
+}
+
+.codeconvenant:hover {
+  color: green;
+}
+
+@media (max-width:600px) {
+  .lipstick {
+    width: 6%;
+  }
+}
