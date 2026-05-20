@@ -98,9 +98,15 @@ Ensure proper form validation for security
 ```
 
 ## 📸 Preview
-```
-(Add screenshots of homepage + gallery + contact page here)
-```
+
+### 🏠 Homepage
+![Homepage](screenshots/home.png)
+
+### 🖼️ Gallery Page
+![Gallery](screenshots/gallery.png)
+
+### 📩 Contact Page
+![Contact](screenshots/contact.png)
 
 ## 👨‍💻 Author
 ```
